@@ -56,7 +56,7 @@ All data preparation was performed in **Power BI (Power Query)** before analysis
 ### 3. Feature Engineering  
 - Extracted date-based fields from `transaction_date`:  
   - `Month` → for monthly revenue trends  
-  - `Day Name` → for weekday performance insights  
+  - `Day` → for weekday performance insights  
   - `MonthNo` → for chronological sorting of months  
   - `DayNo` → for chronological sorting of weekdays  
 - Extracted **time field** from `transaction_time`:  
